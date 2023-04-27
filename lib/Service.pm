@@ -31,7 +31,7 @@ sub startup ($self) {
   # lib/Service/Controller directory, then to bind a subroutine from
   # the controller to the route you specify the name, followed by
   # the subroutine, and separate them with a '#'
-  my $router = $self->routes->namespaces( ['Clark::Controller'] );
+  my $router = $self->routes->namespaces( ['Service::Controller'] );
 
   # This points / to the Foo controller, and sub-routine 'hello'.
   # It is good practice to name your end-points as well, for debugging.

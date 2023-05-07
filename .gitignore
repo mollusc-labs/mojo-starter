@@ -39,3 +39,6 @@ data/
 public/
 
 *.env*
+
+.idea/
+.vscode/
